@@ -1,0 +1,114 @@
+#task1 {
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(253, 235, 219);
+    border-radius: 5px;
+}
+#task1 input:nth-of-type(3){
+    margin-top: 1px;
+    margin-left: 5px;
+}
+/* #task1 button {
+    width: 175px;
+} */
+
+#task1 a {
+    opacity: 0.3;
+}
+#task1 a:hover{
+    opacity: 1;
+}
+#task2{
+    background-color: whitesmoke;
+    margin: 50px auto;
+
+}
+#task2,#task3,#task5 label{
+    font-weight: bold;
+}
+#task2 .btn{
+    color: black;
+    background-color: rgb(241, 241, 241);
+    border-color: black;
+    margin: 15px;
+}
+#task3{
+    background-color: whitesmoke;
+    margin: 50px auto;
+
+}
+.resultKey>div{
+    border: 1px solid black;
+    height: 50px;
+    text-align: center;
+}
+.resultKey{
+    padding: 0 !important;
+
+    box-sizing: border-box;
+}
+.resultValue{
+    margin-bottom: 50px;
+    padding: 0 !important;
+    box-sizing: border-box;
+}
+
+.resultValue>div{
+    border: 1px solid black;
+    height: 50px;
+    padding: 0 !important;
+
+
+}
+.resultValue>div>p{
+    padding: 5px;
+}
+.colorbg{
+    background-color: wheat;
+}
+.inputColor{
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box;
+
+}
+.inputColor input,label{
+    padding: 5px !important;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+.inputColor label:nth-of-type(1){
+    border: 1px solid red;
+}
+.inputColor label:nth-of-type(2){
+    border: 1px solid green;
+}
+.inputColor label:nth-of-type(3){
+    border: 1px solid blue;
+}
+.so{
+    padding: 0 !important;
+    margin: 10px !important;
+    border: 1px solid gray;
+}
+
+
+.task5bg{
+    margin-top: 50px;
+    background-color: whitesmoke;
+    padding: 50px !important;
+}
+#task5{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+#task5 input,#task5 label{
+    margin: 10px 0;
+}
+#task5 button{
+    margin: 10px 0;
+}
+#save{
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
